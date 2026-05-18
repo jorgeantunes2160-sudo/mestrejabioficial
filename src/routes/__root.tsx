@@ -76,10 +76,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Mestre Jabi · Médium vidente com décadas de experiência. Consultas presenciais em Portimão. Marcações pela administradora Patrícia Antunes." },
       { name: "author", content: "Mestre Jabi" },
       { property: "og:title", content: "Mestre Jabi — Médium Vidente em Portimão" },
-      { property: "og:description", content: "Consultas espirituais presenciais em Portimão, Algarve." },
+      { property: "og:description", content: "Mestre Jabi · Médium vidente com décadas de experiência. Consultas presenciais em Portimão. Marcações pela administradora Patrícia Antunes." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Mestre Jabi — Médium Vidente em Portimão" },
+      { name: "twitter:description", content: "Mestre Jabi · Médium vidente com décadas de experiência. Consultas presenciais em Portimão. Marcações pela administradora Patrícia Antunes." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/85f029ac-6a6b-495b-bf2b-ae72039e89d0/id-preview-58c12228--87d4ebd7-2811-40cc-8354-5bc3fdea9cbb.lovable.app-1779139753854.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/85f029ac-6a6b-495b-bf2b-ae72039e89d0/id-preview-58c12228--87d4ebd7-2811-40cc-8354-5bc3fdea9cbb.lovable.app-1779139753854.png" },
     ],
     links: [
       {
